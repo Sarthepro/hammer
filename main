@@ -1,0 +1,5 @@
+local args = {
+    [1] = workspace.Prison_ITEMS.single.Hammer.ITEMPICKUP
+}
+
+workspace.Remote.ItemHandler:InvokeServer(unpack(args))
